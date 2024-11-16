@@ -1,13 +1,13 @@
 .objectFit {
-  display: flex;
   width:1000px;
-  height: 500px;
+  height: 800px;
   border: solid black;
   box-shadow: 10px 15px 30px black;
-  background-color: red;
+  background: linear-gradient(blue, red);
 }
 
 .objectImage {
-  display: inline-flex;
-  object-fit: cover;
+  width: 1000px;
+  height: 800px; 
+  object-fit:scale-down;
 }
