@@ -1,0 +1,37 @@
+.hyperA {
+  width:1024px;
+  height: 768px;
+  border: solid black
+}
+
+p::after,
+pre::first-line {
+  font-size: 50px;
+  color: red;
+}
+
+td, th {
+  width: 150px;;
+  color: red;
+  border: solid black;
+  table-layout: inherit;
+  border-collapse: collapse;
+
+}
+
+tfoot td {
+  color: green;
+  border: solid black 5px;;
+  font-weight: bold;
+  text-align: center;
+}
+
+ul {
+  list-style-type:decimal-leading-zero;
+}
+
+option {
+  color: red;
+  background-color: blue;
+  stroke-opacity: inherit;
+}

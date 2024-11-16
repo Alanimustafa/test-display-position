@@ -1,0 +1,28 @@
+.maincontainer {
+  display: inline-block;
+  margin: 40px;
+  width: auto;
+  height:auto;
+  border: solid black 8px;
+  background-color: rgb(250, 246, 212);
+  justify-content: space-evenly;
+}
+
+div > div {
+  display: inline flex ;
+  left: 20px;
+  margin: 10px;
+  width: 200px;
+  height: 75px;
+  border: solid red 5px;
+  background-color: lightblue;
+}
+
+.boxPosition {
+  position: relative;
+  bottom: 15vh;
+  width: 150px;
+  height: 150px;
+  border: solid gray 6px;
+  background-color: orange;
+}
